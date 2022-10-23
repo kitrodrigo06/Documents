@@ -1,0 +1,18 @@
+body {
+        
+    background-image: url("n.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* text-align: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+form {
+    background-color: rgb(174, 224, 13);
+    max-width: 250px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(red, green, blue, alpha);
+}

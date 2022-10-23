@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/requestform.css">
+</head>
+<body>
+    <body>
+        <form action="thankyourequest.html">
+        <h1> Service Request Form</h1>
+        <form action="">
+            <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3">
+                </div>
+            <p>
+                <input type="radio" name="eType" id="eType">
+                <label for="eType">Onsite</label>
+                <input type="radio" name="eType" id="eType">
+                <label for="eType">Work From Home</label>
+            </p>
+            <p>
+                <h3>Location:</h3>
+                For onsite please state your Workstation No. Department, Floor and Building. <br> For work from home, please complete your adress and include a landmark nearest to your location.</label>
+            
+            </p>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="text" class="form-control">State</label>
+                <select id="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            <p>
+                <p>
+                    <h4>Request Description:</h4>
+                    <label for="comments"></label>
+                    <textarea name="comments" id="" cols="30" rows="10" placeholder="Explain your service request as details as possible."
+                        placeholder="Explain your service request as details as possible" required></textarea>
+                </p>
+            </p>
+            <p> 
+                Upload a picture/screenshot for reference.<input type="File">
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear"></p>
+            </p>
+</body>
+</html>
